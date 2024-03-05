@@ -1,0 +1,159 @@
+h1,h2,h3,h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item .nav-link{
+  font-size: 17px;
+  color: #000;
+  font-weight: 500;
+}
+.img-lyn{
+    height: 100px;
+    object-fit: cover ;
+    opacity: 0.6;
+    
+}
+
+.dropdown-menu{
+  border: 0.5px ;
+  
+}
+.dropdown-item:active{
+background-color: rgb(173, 173, 173);
+}
+h4{
+  font-weight: bold;
+}
+.zoom {
+    height: auto; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 0;
+    width: 100%;
+    
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .zoom img {
+    transition: transform .5s ease;
+    opacity: 0.7;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .zoom:hover .image {
+    transform: scale(1.1);
+    opacity: 1;
+    cursor: pointer;
+  }
+
+
+  .text-lyn{
+    position: absolute;
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .slider {
+    width: 100%;
+    margin: 50px auto;
+}
+
+
+
+.flex-container > .column {
+  float: left;
+  width: 50%;
+ 
+}
+
+
+/* Clear floats after the columns */
+.flex-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grs{
+  border-right: 1px dotted #4b4b4b;
+}
+@media only screen and (max-width: 600px) {
+  .flex-container > .column {
+    float: left;
+    width: 100%;
+   
+  }
+  .grs{
+    border: none;
+  }
+  .carousel-item img{
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media only screen and (min-width: 768px) {
+
+  
+}
+body{
+  overflow-x: auto;
+}
+
+.card-img{
+ height: auto;
+ border-radius: 20px;
+
+}
+.cb{
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 100;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+} 
+.latest{
+  border-radius: 20px;
+  border: none;
+}
+
+.why{
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+ padding: 20px;
+ margin-top: 50px;
+} 
+.bln a{
+text-decoration: none;
+color: #2b2b2b;
+}
+.tour-btn{
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.lok{
+position: absolute;
+top: 40%;
+left: 3%;
+z-index: 1000;
+font-weight: bold;
+}
+.ld{
+  margin-top: 38px;margin-left: 55px;
+}
+.ld:hover{
+  text-decoration: underline;
+}
+.ld i{
+  margin-left:13px;
+}
+.lok1{
+  position: absolute;
+top: 200px;
+left: 3%;
+z-index: 1000;
+font-weight: bold;
+}
